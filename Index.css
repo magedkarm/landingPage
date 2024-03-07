@@ -1,0 +1,21 @@
+.title{
+    height: 300px;
+    object-fit: contain;
+}
+.description{
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .2s;
+    padding: 5px;
+}
+.product:hover .description{
+    opacity: 1;
+}
